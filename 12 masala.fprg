@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="checkfornow"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-06-26 02:39:49 AM"/>
+        <attribute name="created" value="Y2hlY2tmb3Jub3c7Q0hFQ0tTLU1BQ0JPT0stOzIwMjQtMDYtMjU7MTE6MjU6MDQgQU07MzQ3MQ=="/>
+        <attribute name="edited" value="Y2hlY2tmb3Jub3c7Q0hFQ0tTLU1BQ0JPT0stOzIwMjQtMDYtMjY7MDI6Mzk6NDkgQU07MTE7MzY0Mw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="m, P, g" type="Real" array="False" size=""/>
+            <output expression="&quot;m: &quot;" newline="True"/>
+            <input variable="m"/>
+            <assign variable="g" expression="9.8"/>
+            <assign variable="P" expression="m*g"/>
+            <output expression="P" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="checkfornow"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-06-26 03:09:07 AM"/>
+        <attribute name="created" value="Y2hlY2tmb3Jub3c7Q0hFQ0tTLU1BQ0JPT0stOzIwMjQtMDYtMjU7MTE6MjU6MDQgQU07MzQ3MQ=="/>
+        <attribute name="edited" value="Y2hlY2tmb3Jub3c7Q0hFQ0tTLU1BQ0JPT0stOzIwMjQtMDYtMjY7MDM6MDk6MDcgQU07MTQ7MzYzOA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="R1, R2, R3, Sum" type="Real" array="False" size=""/>
+            <output expression="&quot;R1: &quot;" newline="True"/>
+            <input variable="R1"/>
+            <output expression="&quot;R2: &quot;" newline="True"/>
+            <input variable="R2"/>
+            <output expression="&quot;R3: &quot;" newline="True"/>
+            <input variable="R3"/>
+            <assign variable="Sum" expression="1/(1/R1+1/R2+1/R3)"/>
+            <output expression="Sum" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

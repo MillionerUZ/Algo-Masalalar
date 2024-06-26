@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="checkfornow"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-06-26 02:03:07 AM"/>
+        <attribute name="created" value="Y2hlY2tmb3Jub3c7Q0hFQ0tTLU1BQ0JPT0stOzIwMjQtMDYtMjU7MTE6MjU6MDQgQU07MzQ3MQ=="/>
+        <attribute name="edited" value="Y2hlY2tmb3Jub3c7Q0hFQ0tTLU1BQ0JPT0stOzIwMjQtMDYtMjY7MDI6MDM6MDcgQU07NzszNTg1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="V, S, t" type="Real" array="False" size=""/>
+            <output expression="&quot;V: &quot;" newline="True"/>
+            <input variable="V"/>
+            <output expression="&quot;S: &quot;" newline="True"/>
+            <input variable="S"/>
+            <assign variable="t" expression="S/V"/>
+            <output expression="t" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

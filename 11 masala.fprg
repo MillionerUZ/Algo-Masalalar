@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="checkfornow"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-06-26 02:33:51 AM"/>
+        <attribute name="created" value="Y2hlY2tmb3Jub3c7Q0hFQ0tTLU1BQ0JPT0stOzIwMjQtMDYtMjU7MTE6MjU6MDQgQU07MzQ3MQ=="/>
+        <attribute name="edited" value="Y2hlY2tmb3Jub3c7Q0hFQ0tTLU1BQ0JPT0stOzIwMjQtMDYtMjY7MDI6MzM6NTEgQU07MTA7MzYyOQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n, sum" type="Integer" array="False" size=""/>
+            <output expression="&quot;n: &quot;" newline="True"/>
+            <input variable="n"/>
+            <if expression="n&gt;0">
+                <then>
+                    <output expression="&quot;N&gt;0&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Error N&gt;0&quot;" newline="True"/>
+                </else>
+            </if>
+            <assign variable="sum" expression="n*(n+1)/2"/>
+            <output expression="sum" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
